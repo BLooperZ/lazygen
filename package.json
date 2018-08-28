@@ -1,6 +1,6 @@
 {
   "name": "lazygen",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Basic implementation of ECMAScript Array API for Generator Objects",
   "main": "lib/index.js",
   "module": "lib/main.js",
