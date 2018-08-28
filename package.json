@@ -1,0 +1,28 @@
+{
+  "name": "lazygen",
+  "version": "1.0.0",
+  "description": "Basic implementation of ECMAScript Array API for Generator Objects",
+  "main": "lib/index.js",
+  "module": "lib/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BLooperZ/lazygen.git"
+  },
+  "keywords": [
+    "lazy",
+    "js",
+    "generator"
+  ],
+  "author": "Niv Baehr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BLooperZ/lazygen/issues"
+  },
+  "homepage": "https://github.com/BLooperZ/lazygen#readme",
+  "dependencies": {
+    "esm": "^3.0.80"
+  }
+}
