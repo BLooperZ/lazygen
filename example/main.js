@@ -35,8 +35,8 @@ const t = Generator.from(cd, x=> x + 7)
 //console.log(...n)
 
 // primes check
-const p = primes()
-console.log(...(p.slice(0, 2597))) // max. number working with esm
+//const p = primes()
+//console.log(...(p.slice(0, 2597))) // max. number working with esm
 //console.log(...(p.slice(0, 2605))) // max. number working with modules.export
 //console.log(...(p.slice(0, 2606))) // fails: too much
 
@@ -47,3 +47,7 @@ console.log(...(p.slice(0, 2597))) // max. number working with esm
 //console.log(p.next().value)
 //console.log(p.next().value)
 //console.log(p.next().value)
+
+const pr =  primes().slice(0, 20)
+const r = Generator.from(pr)
+console.log(...r)
