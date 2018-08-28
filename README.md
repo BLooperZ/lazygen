@@ -8,8 +8,8 @@ Basic implementation of ECMAScript Array API for Generator Objects
 ```
 import Generator, { range } from 'lazygen'
 
-r = range(1, 5).filter(x => x != 2)
-console.log(...r) // 1 3 4 5
+let r = range(1, 5).filter(x => x != 2)
+console.log(...r) // 1 3 4
 ````
 
 # TODO
