@@ -15,3 +15,4 @@ console.log(...r) // 1 3 4
 # TODO
 * Write unit tests
 * Write Documentation for utils
+* write API documentation
