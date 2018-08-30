@@ -2,7 +2,7 @@
 Basic implementation of ECMAScript Array API for Generator Objects
 
 # Installation
-`npm install --save lazy`
+`npm install --save lazygen`
 
 # Usage
 ```
